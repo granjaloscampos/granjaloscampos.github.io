@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding top: 0px;
+	font-family: "American Typewriter", serif;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+header{
+	padding-top: 0px;
+}
+.nombre{
+	color: #B7AFAF;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+}
+
+.logo img{
+	height: 65px;
+}
+ul li{
+	display: inline-block;
+	padding: 0px 10px;
+	padding-top: 0px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: aqua;
+}
+a.telefono{
+	color: black;
+}
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+}
+h1{
+	font-size: 4rem;
+	font-weight: 700; 
+}
+h2{
+	font-size: 1.625rem;
+}
+h3{
+	font-size: 1rem;
+}
+section{
+	border-bottom: 8px solid #222;
+	padding-top: 50px;
+	padding-bottom: 50px;}
+html, body, .cover{
+	height: 100%
+}
+
+
+.cover{
+	background: url(..//img/2.2.jpg);
+}
+section.cabecera{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding-top: 0px;
+ }
+
+.presentacion{
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.presentacion h1,h2 {
+	color: white;
+}
+.presentacion span{
+	background: #118F58;
+	padding: 20px;
+	padding-bottom: 23px;
+	font-weight: 500;
+	margin-left: -5px;}
+
+.container-form{
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 50px;
+	margin-top: 90px;
+	background-color: black;
+}
+.container-form h2{
+	margin-bottom: 15px;
+	font-size: 35px;
+}
+.container-form p{
+	font-size: 17px;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+.container-form a{
+	font-size: 17px;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 15px;
+	color: white;
+	font-weight: 700;
+}
+.container-form a i{
+	color: orange;
+	margin-right: 10px;
+}
+.container-form form .campo, textarea{
+	width: 100%;
+	font-size: 15px;
+	padding: 15px 10px;
+	border: 1px solid #dbdbdb;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	outline: 0px;
+}
+.container-form form textarea{
+	max-width: 530px;
+	min-width: 530px;
+	min-height: 140px;
+	max-height: 150px;
+}
+.container-form .btn-enviar{
+	padding: 15px;
+	font-size: 16px;
+	border: none;
+	outline: 0px;
+	background: orange;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+	background: aqua;
+}
+.formulario{
+	background-color: black;
+	color: black;
+}
+.formulario h2,p{
+	color: white;
+}

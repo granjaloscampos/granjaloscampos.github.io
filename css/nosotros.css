@@ -1,0 +1,166 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: "American Typewriter", serif;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+.nombre{
+	color: #B7AFAF;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 0px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+}
+
+.logo img{
+	height: 80px;
+}
+ul li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: aqua;
+}
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+	}
+}
+h1{
+	font-size: 4rem;
+	font-weight: 700; 
+}
+h2{
+	font-size: 1.625rem;
+}
+h3{
+	font-size: 1rem;
+}
+section{
+	border-bottom: 8px solid #222;
+	padding-top: 50px;
+	padding-bottom: 50px;}
+html, body, .cover{
+	height: 100%
+}
+
+
+.cover{
+	background: url(..//img/gallino.jpg);
+}
+section.cabecera{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding-top: 0px;
+}
+
+.presentacion{
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+.presentacion span{
+	background: #118F58;
+	padding: 20px;
+	padding-bottom: 23px;
+	font-weight: 500;
+	margin-left: -5px;}
+.our-team{
+	background-color: black;
+	text-align: center;
+	margin-bottom: 20px;
+	flex: wrap;
+}
+.group__title{
+	font-family: "Monaco", monospace;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.7em;
+
+}
+.our-team__title{
+	font-family: "Georgia", serif;
+	height: 100%;
+	font-size: 2.1em;
+}
+.our-team .container--flex{
+   display: flex;
+   align-items: flex-start;
+   flex: wrap;
+}
+.our-team__title{
+	font-family: "Pacifica", cursive;
+	color: #d9e820;
+	font-weight: bold;
+	font-size: 2.0em;
+	margin-bottom: 10px;
+
+}
+.our-team__img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+	flex: wrap;
+}
+.our-team__txt1{
+	padding: 15px;
+	text-align: justify;
+	background-color:#62A22F;
+	border-radius: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: "Trebuchet MS" ,sans-serif;
+}
+.our-team__txt2{
+	padding: 15px;
+	text-align: justify;
+	background-color:#62A22F;
+	border-radius: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: "Trebuchet MS" ,sans-serif;
+}
+.our-team__txt3{
+	padding: 15px;
+	text-align: justify;
+	background-color:#62A22F;
+	border-radius: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: "Trebuchet MS" ,sans-serif;
+}
+.our-team__txt4{
+	padding: 15px;
+	text-align: justify;
+	background-color:#62A22F;
+	border-radius: 25px;
+	padding-left:  5%;
+	padding-right: 5%;
+	font-family: "Trebuchet MS" ,sans-serif;
+}
+.column column--33{
+	padding-left: 20px;
+}
+
